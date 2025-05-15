@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+.nav{
+    width: 790px;
+}
+.img1{
+    left: 810px;
+    z-index: 9999;
+}
+.bola1{
+    position: relative;
+    left: 1000px;
+    bottom: 780px;
+    width: 550px;
+    height: 550px;
+}
+.bola2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    bottom: 450px;
+    left: 60px;
+}
+.card:hover{
+transform: scale(1.1);
+}
