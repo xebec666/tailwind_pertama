@@ -13,15 +13,15 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
  <div class=" bg-red-50 h-screen w-screen mb-28" >
     <nav class="relative top-5  bg-white nav h-10 left-52 rounded-full  drop-shadow-md">
       <ul class="flex justify-center text-center pt-1 ">
-        <li class="mx-2"><a href="" class="text-sm  hover:underline">Home</a></li>
-        <li class="mx-2"><a href="" class="text-sm  hover:underline">About us</a></li>
+        <li class="mx-2"><a href="#Home" class="text-sm  hover:underline">Home</a></li>
+        <li class="mx-2"><a href="#About" class="text-sm  hover:underline">About us</a></li>
         <h1 class="mx-2 text-xl font-bold">JOJOStore</h1>
-        <li class="mx-2"><a href="" class="text-sm  hover:underline">Menu</a></li>
-        <li class="mx-2"><a href="" class="text-sm  hover:underline">Contact us</a></li>
+        <li class="mx-2"><a href="#Menu" class="text-sm  hover:underline">Menu</a></li>
+        <li class="mx-2"><a href="#Contact" class="text-sm  hover:underline">Contact us</a></li>
       </ul>
     </nav>
     
-    <div class="mx-16">
+    <div class="mx-16" id="Home">
       <h1 class="text-6xl max-w-96 relative top-16 font-bold font-sans ">
         Your Favorite Meal Is Just a Click Away!
       </h1>
@@ -31,7 +31,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="rounded-full bola1 bg-amber-400 w-96 h-96"></div>
  </div>
 
- <div class="about flex justify-between">
+ <div id="About" class="about flex justify-between">
   <div class="">
 
     <div class="bola2 rounded-e-full bg-amber-400"></div>
@@ -44,7 +44,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </div>
  </div>
 
-<div class="menu relative bottom-60">
+<div class="menu relative bottom-60" id="Menu" >
   <h1 class="text-4xl font-bold text-center mb-20"><span class="text-amber-500">Most</span> Populer Menu</h1>
   <div class="card-container flex justify-between mx-6">
     <div class="w-60 card rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-md hover:shadow-xl transition-shadow duration-300">
@@ -59,7 +59,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </div>
 </div>
 
-    <div class="w-60 card rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-xl hover:shadow-xl transition-shadow duration-300">
+    <div  class="w-60 card rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-xl hover:shadow-xl transition-shadow duration-300">
   <img class="w-60  h-48 object-cover" src="./img/download-removebg-preview.png" alt="Produk">
   <div class="p-4">
     <h2 class="text-xl font-semibold text-gray-800">Nama Produk</h2>
@@ -87,7 +87,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </div>
 
 
-  <footer class="bg-amber-500 text-white py-8">
+  <footer id="Contact" class="bg-amber-500 text-white py-8">
   <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
     
     <!-- Logo / Brand -->
